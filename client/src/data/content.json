@@ -1,0 +1,192 @@
+{
+  "navigation": {
+    "brand": {
+      "name": "EcomStore",
+      "logo": "assets/logo.svg"
+    },
+    "links": [
+      {
+        "id": "home",
+        "label": "Home",
+        "path": "/",
+        "active": true
+      },
+      {
+        "id": "shop",
+        "label": "Shop",
+        "path": "/shop",
+        "active": false
+      },
+      {
+        "id": "spa",
+        "label": "Spa",
+        "path": "/spa",
+        "active": false
+      },
+      {
+        "id": "about",
+        "label": "About",
+        "path": "/about",
+        "active": false
+      },
+      {
+        "id": "contact",
+        "label": "Contact",
+        "path": "/contact",
+        "active": false
+      }
+    ],
+    "categories": [
+      {
+        "id": "women",
+        "label": "Women",
+        "active": false
+      },
+      {
+        "id": "men",
+        "label": "Men",
+        "active": false
+      },
+      {
+        "id": "kiddies",
+        "label": "Kiddies",
+        "active": false
+      },
+      {
+        "id": "new",
+        "label": "New",
+        "active": false
+      },
+      {
+        "id": "popular",
+        "label": "Popular",
+        "active": false
+      }
+    ],
+    "cart": {
+      "label": "Cart",
+      "icon": "shopping-cart"
+    }
+  },
+  "hero": {
+    "title": "Glow Beyond",
+    "title_secondary": "Expectations",
+    "subtitle": "Clean, effective, and cruelty-free skincare made to deliver visible results.",
+    "cta": {
+      "primary": {
+        "text": "Shop Now"
+      }
+    }
+  },
+  "sections": {
+    "whyChoose": {
+      "title": "Why Choose Xtragleam?",
+      "subtitle": "Struggling with acne issues?",
+      "description": "At Xtragleam Skincare, we understand how frustrating acne can be, and we’re here to help you regain confidence in your skin. Our carefully designed recovery process targets acne at its root while soothing and nourishing your skin for long-term health.",
+      "explore": "Explore Our Range",
+      "cta": {
+        "text": "View all",
+        "link": "/shop"
+      }
+    },
+    "featuredProducts": {
+      "title": "Discover Our Best-Sellers",
+      "cta": {
+        "text": "View all"
+      },
+      "displayLimit": 6
+    },
+    "testimonials": {
+      "title": "Testimonial",
+      "displayLimit": 6
+    },
+    "promotions": {
+      "title": "Don't Miss out: Limited-Time Offer!",
+      "subtitle": "Enjoy 20% Off Your First Purchase With Code ",
+      "code": "GLOW20",
+      "description": "Hurry, Offer Ends In",
+      "placeholder": "Enter your email",
+      "cta": {
+        "text": "Shop the Sale"
+      }
+    },
+    "blogs": {
+      "title": "Your Guide to Radiant Skin",
+      "subtitle": "5 Mistakes That Might Be Hurting Your Skin",
+      "description": "Your skincare routine plays a crucial role in maintaining healthy, radiant skin. However, some common habits might be doing more harm than good. Here are five mistakes to avoid: 1. Overwashing Your Face Washing too often or using harsh cleansers can strip......",
+      "continue": "Continue Reading",
+      "image": "blog-image-1",
+      "cta": {
+        "text": "Read More Blog Post"
+      },
+      "displayLimit": 6
+    }
+  },
+  "footer": {
+    "brand": {
+      "copyright": "Xtragleam Skincare. All Right Reserved"
+    },
+    "links": {
+      "company": {
+        "title": "Quick Link",
+        "items": [
+          {
+            "label": "Home",
+            "path": "/"
+          },
+          {
+            "label": "Shop",
+            "path": "/shop"
+          },
+          {
+            "label": "About",
+            "path": "/about"
+          },
+          {
+            "label": "Spa",
+            "path": "/spa"
+          },
+          {
+            "label": "Contact Us",
+            "path": "/contact"
+          },
+          {
+            "label": "Career",
+            "path": "/careers"
+          }
+        ]
+      },
+      "support": {
+        "title": "Company",
+        "items": [
+          {
+            "label": "Privacy Policy",
+            "path": "/privacy"
+          },
+          {
+            "label": "Terms of Service",
+            "path": "/terms-of-service"
+          },
+          {
+            "label": "Legal",
+            "path": "/legal"
+          }
+        ]
+      }
+    },
+    "newsletter": {
+      "description": "Be the first to get notification about our upcoming event",
+      "placeholder": "Email",
+      "cta": {
+        "text": "Submit"
+      }
+    }
+  },
+  "ui": {
+    "buttons": {
+      "primary": "bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors",
+      "secondary": "bg-gray-200 hover:bg-gray-300 text-gray-800 font-semibold py-3 px-8 rounded-lg transition-colors",
+      "outline": "border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-semibold py-3 px-8 rounded-lg transition-colors"
+    }
+  }
+}
