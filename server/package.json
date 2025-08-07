@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-server",
+  "name": "sharaf-dg-subbu-server",
   "version": "1.0.0",
   "description": "Node.js backend server for ecommerce application",
   "main": "index.js",
@@ -13,10 +13,8 @@
     "cors": "^2.8.5",
     "mysql2": "^3.6.0",
     "dotenv": "^16.3.1",
-    "bcryptjs": "^2.4.3",
     "jsonwebtoken": "^9.0.2",
-    "helmet": "^7.0.0",
-    "express-rate-limit": "^6.8.1"
+    "helmet": "^7.0.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"

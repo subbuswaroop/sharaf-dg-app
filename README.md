@@ -42,7 +42,7 @@ Before running this application, make sure you have the following installed:
 
 ```bash
 git clone <repository-url>
-cd assessment-sharaf-dg
+cd sharaf-dg-app
 ```
 
 ### 2. Install dependencies
@@ -66,7 +66,7 @@ cd ..
 1. **Start MySQL server** and create a new database:
 
    ```sql
-   CREATE DATABASE ecommerce_db;
+   CREATE DATABASE sharaf_db_subbu_db;
    ```
 
 2. **Configure environment variables**:
@@ -78,7 +78,7 @@ cd ..
    DB_PORT=3306
    DB_USER=your_mysql_username
    DB_PASSWORD=your_mysql_password
-   DB_NAME=ecommerce_db
+   DB_NAME=sharaf_db_subbu_db
    ```
 
 3. **Run the database setup script**:
@@ -89,44 +89,37 @@ cd ..
 
 ### 4. Start the Application
 
-Run both frontend and backend concurrently:
-
-```bash
-npm run dev
-```
-
-Or run them separately:
-
 **Backend (Port 3334):**
 
 ```bash
-npm run server
+cd server
+npm run dev
 ```
 
-**Frontend (Port 3000):**
+**Frontend (Port 3333):**
 
 ```bash
-npm run client
+cd client
+npm run dev
 ```
 
 ## 📁 Project Structure
 
 ```
-assessment-sharaf-dg/
+sharaf-dg-app/
 ├── client/                 # React frontend
 │   ├── src/
 │   │   ├── components/     # Reusable UI components
 │   │   ├── pages/         # Page components
 │   │   ├── context/       # React Context for state management
-│   │   └── ...
-│   ├── public/
+│   │   └── assets/        # Save images, icons and other assets
+│   ├── index.html         # HTML file for the client app
 │   └── package.json
 ├── server/                # Node.js backend
 │   ├── config/           # Database configuration
 │   ├── routes/           # API route handlers
 │   ├── scripts/          # Database setup scripts
 │   └── package.json
-├── .github/              # GitHub configurations
 └── package.json          # Root package.json
 ```
 
