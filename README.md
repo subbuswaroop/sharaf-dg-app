@@ -170,12 +170,7 @@ sharaf-dg-app/
 
 ### Pages
 
-- **Home**: Hero section, featured products, testimonials
-- **Products**: Product catalog with search and filters
-- **ProductDetail**: Individual product pages
-- **Cart**: Shopping cart management
-- **Blog**: Blog post listings
-- **BlogPost**: Individual blog articles
+- **Home**: Hero section, products, testimonials, blog post and promotion banner
 
 ## 🔄 Cart Functionality
 
