@@ -129,5 +129,4 @@ public/uploads/
 sessions/
 
 # Config files with sensitive data
-config/database.js
 config/auth.js
