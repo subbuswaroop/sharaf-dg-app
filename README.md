@@ -14,6 +14,12 @@ A full-stack ecommerce application built with React.js, Tailwind CSS, Node.js, a
 
 - **Supporting the "add to cart" functionality withbackend logic (e.g. persisting cart state by session or user)**
 
+## Features that I couldn't implement due to time constraints
+
+- Handle different languages using react-i18n library and also RTL support
+- Lazy loading components based on scroll position, eg: products and blogs will only be loaded when an user scrolls to that area
+- Provide **srcset** for images so that it loads the best image based on screen resolution
+
 ## 🛠️ Tech Stack
 
 ### Frontend
