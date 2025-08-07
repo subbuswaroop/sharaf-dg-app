@@ -16,7 +16,7 @@ const PromotionSection = ({ data }) => {
           {data?.subtitle} <b>{data?.code}</b>
         </p>
         {data?.description && (
-          <p className="mb-4 sm:mb-6 md:mb-8 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl max-w-2xl mx-auto">
+          <p className="leading-10 mb-4 sm:mb-6 md:mb-8 text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl max-w-2xl mx-auto">
             {data.description} {days > 0 && `${days}d `}
             {hours}hrs {minutes}mins {seconds}secs
           </p>

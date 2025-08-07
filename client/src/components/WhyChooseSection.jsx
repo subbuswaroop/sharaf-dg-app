@@ -20,7 +20,7 @@ const WhyChooseSection = ({ data }) => {
               </p>
             )}
           </div>
-          <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 md:gap-4 justify-center md:justify-start">
+          <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 md:gap-4 justify-center sm:justify-start md:justify-start">
             {data?.cta?.link && (
               <Link
                 to={data.cta.link}

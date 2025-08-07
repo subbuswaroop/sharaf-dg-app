@@ -169,12 +169,12 @@ const setupDatabase = async () => {
 
     // Sample products
     const products = [
-      ['Premium Headphones', 'High-quality wireless headphones with advanced noise cancellation technology', 199.99, 15, 'electronics', null, true, 4.5, 127],
-      ['Smart Watch', 'Feature-rich smartwatch with health monitoring and GPS tracking', 299.99, 8, 'electronics', null, true, 4.3, 89],
-      ['Laptop Stand', 'Ergonomic adjustable laptop stand for better posture and productivity', 49.99, 25, 'accessories', null, true, 4.7, 203],
-      ['Wireless Mouse', 'Precise wireless mouse with long battery life and ergonomic design', 39.99, 30, 'electronics', null, false, 4.2, 156],
-      ['Phone Case', 'Durable protection for your smartphone with style and functionality', 19.99, 50, 'accessories', null, false, 4.0, 78],
-      ['Bluetooth Speaker', 'Portable speaker with excellent sound quality and waterproof design', 79.99, 12, 'electronics', null, false, 4.6, 234]
+      ['X5 Extreme Body Lotion', 'Test Description', 30000.00, 15, 'electronics', null, true, 4.5, 127],
+      ['AHA Face Toner', 'Test Description', 60000.00, 8, 'electronics', null, true, 4.3, 89],
+      ['Anti Strecthmark Oil', 'Test Description', 70000.99, 25, 'accessories', null, true, 4.7, 203],
+      ['Acne Serum', 'Test Description', 30000.00, 30, 'electronics', null, false, 4.2, 156],
+      ['Luminous Body Lotion', 'Test Description', 30000.00, 50, 'accessories', null, false, 4.0, 78],
+      ['Skin Glow Moisturizing Lotion', 'Test Description', 30000.00, 12, 'electronics', null, false, 4.6, 234]
     ]
 
     for (const product of products) {

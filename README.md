@@ -66,7 +66,7 @@ cd ..
 1. **Start MySQL server** and create a new database:
 
    ```sql
-   CREATE DATABASE sharaf_db_subbu_db;
+   CREATE DATABASE sharaf_dg_subbu_db;
    ```
 
 2. **Configure environment variables**:
@@ -78,7 +78,7 @@ cd ..
    DB_PORT=3306
    DB_USER=your_mysql_username
    DB_PASSWORD=your_mysql_password
-   DB_NAME=sharaf_db_subbu_db
+   DB_NAME=sharaf_dg_subbu_db
    ```
 
 3. **Run the database setup script**:

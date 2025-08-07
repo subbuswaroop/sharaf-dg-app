@@ -20,10 +20,10 @@ const TestimonialSection = ({ sectionData, data }) => {
                   <img
                     src={getAsset(`avatar-${indx % 2 === 0 ? 1 : 2}`)}
                     alt="Star"
-                    className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 mr-2 rounded-full"
+                    className="w-12 h-12 md:w-10 md:h-10 md:w-14 md:h-14 mr-2 rounded-full"
                   />
                 </div>
-                <h4 className="font-semibold mb-1 sm:mb-2 text-sm sm:text-base">
+                <h4 className="font-medium mb-1 sm:mb-2 text-sm sm:text-base">
                   {testimonial.title}
                 </h4>
                 <p className="text-gray-700 mb-2 sm:mb-3 md:mb-4 text-xs sm:text-sm md:text-base">

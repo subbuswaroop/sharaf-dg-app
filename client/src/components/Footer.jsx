@@ -11,7 +11,7 @@ const Footer = () => {
   const newsletter = footer?.newsletter;
 
   return (
-    <footer className="bg-[#121212] text-white pt-8 md:pt-12 pb-6 px-8 md:px-16">
+    <footer className="bg-[#121212] text-white pt-8 md:pt-12 pb-6 px-4 md:px-16">
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 pb-8">
           <div className="lg:col-span-1 order-1">
@@ -27,7 +27,7 @@ const Footer = () => {
           </div>
 
           {links?.company && (
-            <div className="md:pl-[20%] order-3 sm:order-2">
+            <div className="order-3 sm:order-2 md:order-3 lg:order-3">
               <h3 className="font-semibold text-lg mb-4">
                 {links.company.title}
               </h3>
@@ -47,7 +47,7 @@ const Footer = () => {
           )}
 
           {links?.support && (
-            <div className="pt-6 md:pt-0 order-4 sm:order-3">
+            <div className="pt-6 md:pt-0 order-4 sm:order-3 md:order-4 lg:order-4">
               <h3 className="font-semibold text-lg mb-4">
                 {links.support.title}
               </h3>
@@ -67,7 +67,7 @@ const Footer = () => {
           )}
 
           {newsletter && (
-            <div className="pt-6 pb-6 md:pb-0 md:pt-0 order-2 sm:order-4">
+            <div className="pt-6 pb-6 md:pb-0 md:pt-0 order-2 sm:order-4 md:order-2 lg:order-4 max-w-xs">
               <p className="font-thin text-sm text-center mx-auto xl:px-8 mb-4">
                 {newsletter.description}
               </p>

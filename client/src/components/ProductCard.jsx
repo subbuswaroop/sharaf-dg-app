@@ -55,21 +55,23 @@ const ProductCard = ({ product, indx }) => {
         <img
           src={getAsset(`product-${indx + 1}`)}
           alt={`product-${indx + 1}`}
-          className="w-52 h-52 object-contain absolute left-[12%] md:left-[27%] bottom-[10px]"
+          className="w-52 h-52 object-contain absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/3"
         />
       </div>
-      <div className="flex flex-col justify-center px-4 min-h-[120px]">
+      <div className="flex flex-col justify-center px-4 min-h-[120px] py-2">
         <div className="flex flex-wrap items-center justify-between">
           <div className="p-1">
             <h3 className="font-normal text-md text-gray-800">
               {product.name}
             </h3>
             <span className="font-thin text-sm line-through">
-              ${product.price}
+              ₦{parseInt(product.price).toLocaleString("en-IN")}
             </span>
-            <span className="pl-2 font-normal text-sm">${product.price}</span>
+            <span className="pl-2 font-normal text-sm">
+              ₦{parseInt(product.price).toLocaleString("en-IN")}
+            </span>
           </div>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-2 md:pt-0">
             {!isInCart ? (
               <button
                 onClick={handleAddToCart}
