@@ -10,6 +10,10 @@ A full-stack ecommerce application built with React.js, Tailwind CSS, Node.js, a
 - **Responsive Design**: Mobile-first approach with Tailwind CSS
 - **RESTful API**: Well-structured backend with proper error handling
 
+## What's missing
+
+- **Supporting the "add to cart" functionality withbackend logic (e.g. persisting cart state by session or user)**
+
 ## 🛠️ Tech Stack
 
 ### Frontend
